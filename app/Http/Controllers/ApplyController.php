@@ -37,7 +37,7 @@ class ApplyController extends Controller
             $document->storeAs('public/media',$document_name);
             $model->document=$document_name;
         }
-
+        
         $model->user_id=session()->get('USER_ID');
         $model->plan_id=$request->post('plan_id');
         $model->company_id=$request->post('company_id');

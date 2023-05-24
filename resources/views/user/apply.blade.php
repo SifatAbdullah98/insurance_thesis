@@ -28,11 +28,11 @@
                     </div>
                     <div class="form-group">
                         <label for="plan_id" class="control-label mb-1"></label>
-                        <input id="plan_id" value="{{$plan_id}}" name="plan_id" type="text" class="form-control" aria-required="true" aria-invalid="false" hidden>
+                        <input id="plan_id" value="{{$plan_id}}" name="plan_id" type="text" class="form-control" aria-required="true" aria-invalid="false" >
                     </div>
                     <div class="form-group">
                         <label for="company_id" class="control-label mb-1"></label>
-                        <input id="company_id" value="{{$company_id}}" name="company_id" type="text" class="form-control" aria-required="true" aria-invalid="false" hidden>
+                        <input id="company_id" value="{{$company_id}}" name="company_id" type="text" class="form-control" aria-required="true" aria-invalid="false" >
                     </div>
                     <div class="form-group">
                         <label for="planname" class="control-label mb-1">Plan name</label>
